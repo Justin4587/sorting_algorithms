@@ -31,6 +31,8 @@ void swap(int *a, int *b)
  * sort - sorts
  * @array: array
  * @size: size
+ * @begin: start
+ * @end: end
  * Return: void
  */
 void sort(int *array, size_t begin, size_t end, size_t size)
