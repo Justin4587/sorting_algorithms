@@ -37,7 +37,7 @@ void sort(int *array, size_t begin, size_t end, size_t size)
 {
 	int index;
 
-	if (begin >= end)
+	if ((int)begin >= (int)end)
 		return;
 
 	index = part(array, begin, end, size);
